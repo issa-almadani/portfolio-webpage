@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+        
 <head>
   <title>Issa Almadani</title>
   <meta charset="utf-8">
@@ -14,7 +15,9 @@
 </head>
 
 <body>
+    
     <div class="scroller">
+
         <!-- Navigation Toolbar -->
         <nav class="navbar navbar-expand-lg fixed-top navbarScroll scrollerChild navbarDark">
                 <div class="container">
@@ -59,7 +62,7 @@
 
         <!-- about section-->
         <section id="about" class="scrollerChild">
-            <div class="container mt-4 pt-4">
+            <div class="container mt-4 pt-4 tester" >
                 <h1 class="text-center">About Me</h1>
                 <div class="row mt-4">
                     <div class="col-lg-4">
@@ -101,7 +104,11 @@
                             <p>
                                 Check out my LinkedIn for my full set of experiences, and reach out for further inquiries for my resume/CV or experiences.
                             </p>
-                            <div><a href="https://www.linkedin.com/in/issa-almadani/"><i class="fa fa-linkedin-square" style="font-size:62px; float: right;"></i></a></div>
+                            <p>
+                                I am also part of the @foodammaniacs family and can be found on instagram @afoodammaniac, where we create food review
+                                content for the various restaurants of Amman, Jordan, and sometimes abroad. Check us out!
+                            </p>
+                            <div><a href="https://www.instagram.com/afoodammaniac/"><i class="fa fa-instagram" style="font-size:62px; color: purple; float: right; padding-left: 20px;"></a></i><a href="https://www.linkedin.com/in/issa-almadani/"><i class="fa fa-linkedin-square" style="font-size:62px; float: right;"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -126,20 +133,20 @@
                             </div>
                         </div>
                     </div>
-<!-- 
+
                     <div class="col-lg-4 mt-4">
                         <div class="card portfolioContent">
                             <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
                             <div class="card-body">
-                                <h4 class="card-title">Quiz App</h4>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <h4 class="card-title">Algorithmic Music Generator</h4>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-success">Link</a>
+                                    <a href="https://issa-almadani.github.io/undeground_music/" class="btn btn-success">Link</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+<!--
                 </div>
                 <br>
                 <div class="row">
@@ -184,13 +191,47 @@
                 </div> -->
         </section>
         <hr class="dashed-hr">
+
+        <!-- contact section-->
+        <section id="contact" class="scrollerChild">
+            <div class="container mt-3 contactContent">
+                <h1 class="text-center">Contact Me</h1>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+                            <div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Fuheis,+Jordan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                            </div>
+                            <a class="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a>
+                            <style>#my-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <!-- form fields -->
+                        <form>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name">
+                            <input type="email" class="form-control mt-3" placeholder="Email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </div> 
 </body>
-</html>
 
+<script src="script/script.js"></script>
 
 <!-- change scroll bar to dots and let it snap like apple -->
-<!-- porfolio, see source code with html symbol -->
+<!-- portfolio, see source code with html symbol -->
 
 <!-- load javascript after loading all html content -->
-<script src="script/script.js"></script>
+</html>

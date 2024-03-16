@@ -1,11 +1,11 @@
-/* hero background image */
+
 .bgimage {
     height:100vh;
     background: url('images/heroImage.jpg');
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
+
 .hero_title {
     font-size: 4.5rem;
 }
@@ -30,8 +30,12 @@
 }
 
 #about, #portfolio, #contact {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 2px); 
+    padding-bottom: 10rem;
 }
 
 #contact {
@@ -44,7 +48,6 @@
 
 .dashed-hr {
     border: none;
-    height: 5px;
     background: #000;
     background: repeating-linear-gradient(90deg,#000,#000 6px,transparent 6px,transparent 12px);
 }
@@ -56,12 +59,10 @@
 .scroller {
     height: 100vh;
     scroll-snap-type: y mandatory;
-    flex-basis: 50%;
     overflow-y: scroll;
 }
   
 .scrollerChild {
     scroll-snap-align: start;
-    display: flex;
-    flex-flow: column;
 }
+
