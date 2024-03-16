@@ -36,10 +36,7 @@
     align-items: center;
     min-height: calc(100vh - 2px); 
     padding-bottom: 10rem;
-}
-
-#contact {
-    padding-bottom: 4rem;
+    padding-top: 10rem;
 }
 
 .imageAboutPage {
@@ -66,3 +63,6 @@
     scroll-snap-align: start;
 }
 
+.my-image {
+    padding-bottom: 4rem;
+}
