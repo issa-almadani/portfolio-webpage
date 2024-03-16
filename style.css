@@ -29,6 +29,15 @@
     color: wheat;
 }
 
+#about, #portfolio, #contact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
 .imageAboutPage {
     width: 100%;
 }
@@ -38,4 +47,21 @@
     height: 5px;
     background: #000;
     background: repeating-linear-gradient(90deg,#000,#000 6px,transparent 6px,transparent 12px);
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.scroller {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    flex-basis: 50%;
+    overflow-y: scroll;
+}
+  
+.scrollerChild {
+    scroll-snap-align: start;
+    display: flex;
+    flex-flow: column;
 }

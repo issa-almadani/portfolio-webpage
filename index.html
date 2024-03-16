@@ -14,105 +14,183 @@
 </head>
 
 <body>
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
-
-    <!-- Navigation Toolbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">Issa</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </div>
-    </nav>
-
-     <!-- main banner -->
-     <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, it's me Issa</h2>
-                <p class="hero_desc">I am a software developer in Fuheis / Chicago</p>
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/me.JPG" class= "imageAboutPage" alt="">
-                </div>
-
-                <div class="col-lg-8">
-                    <p> I'm a fourth-year Odyssey Scholar at the University of Chicago, majoring in Computer Science, 
-                        specializing in Computer Systems, and minoring in Chemistry on a pre-medical track. My area 
-                        of expertise lies in web development, specifically the backend and databases, as well as software 
-                        development. I am also very interesed in ML and AI-based applications in medicine and biochemistry
-                        as well as foreign-language exchange.
+    <div class="scroller">
+        <!-- Navigation Toolbar -->
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll scrollerChild navbarDark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Issa</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
                         
-                    </p>
-                    <!-- <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Name: Issa Almadani </li>
-
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Name: David Parker</li>
-                                <li>Age: 28</li>
-                                <li>Occupation: Web Developer</li>
-
-                            </ul>
-                        </div>
-                    </div> -->
-                    <div class="row mt-3">
-                        <p> I've worked previously at Amazon (SDE Intern Summer 2023), and have previously worked as a Web Developer, 
-                            Backend Developer, and as a Consulting Mentor for interns for two-years at a Chicago-based startup (CharacTour).
-                        </p>
-                        <p>
-                            I've also worked as a Machine-Learning intern at Lumena Energy, and have been a teaching assistant at the University of Chicago 
-                            for 3-years, initially in the Mathematics and subsequently Computer Science department.
-                        </p>
-                        <p>
-                            Check out my LinkedIn for my full set of experiences, and reach out for further inquiries for my resume/CV or experiences.
-                        </p>
-                        <div><a href="https://www.linkedin.com/in/issa-almadani/"><i class="fa fa-linkedin-square" style="font-size:62px; float: right;"></i></a></div>
                     </div>
                 </div>
-            </div>
-    </section>
+        </nav>
 
-    <hr class="dashed-hr">
+        <!-- main banner -->
+        <section class="bgimage scrollerChild" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, it's me Issa</h2>
+                    <p class="hero_desc">I am a software developer in Fuheis / Chicago</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section-->
+        <section id="about" class="scrollerChild">
+            <div class="container mt-4 pt-4">
+                <h1 class="text-center">About Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="images/me.JPG" class= "imageAboutPage" alt="">
+                    </div>
+
+                    <div class="col-lg-8">
+                        <p> I'm a fourth-year Odyssey Scholar at the University of Chicago, majoring in Computer Science, 
+                            specializing in Computer Systems, and minoring in Chemistry on a pre-medical track. My area 
+                            of expertise lies in web development, specifically the backend and databases, as well as software 
+                            development. I am also very interesed in ML and AI-based applications in medicine and biochemistry
+                            as well as foreign-language exchange.
+                            
+                        </p>
+                        <!-- <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Name: Issa Almadani </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Name: David Parker</li>
+                                    <li>Age: 28</li>
+                                    <li>Occupation: Web Developer</li>
+
+                                </ul>
+                            </div>
+                        </div> -->
+                        <div class="row mt-3">
+                            <p> I've worked previously at Amazon (SDE Intern Summer 2023), and have previously worked as a Web Developer, 
+                                Backend Developer, and as a Consulting Mentor for interns for two-years at a Chicago-based startup (CharacTour).
+                            </p>
+                            <p>
+                                I've also worked as a Machine-Learning intern at Lumena Energy, and have been a teaching assistant at the University of Chicago 
+                                for 3-years, initially in the Mathematics and subsequently Computer Science department.
+                            </p>
+                            <p>
+                                Check out my LinkedIn for my full set of experiences, and reach out for further inquiries for my resume/CV or experiences.
+                            </p>
+                            <div><a href="https://www.linkedin.com/in/issa-almadani/"><i class="fa fa-linkedin-square" style="font-size:62px; float: right;"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <hr class="dashed-hr">
+
+        <!-- portfolio section-->
+        <section id="portfolio" class="scrollerChild">
+            <div class="container mt-3">
+                <h1 class="text-center">Portfolio</h1>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/source-code.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">This Webpage's Source Code</h4>
+                                <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+                                <div class="text-center">
+                                    <a href="https://github.com/issa-almadani/portfolio-webpage" class="btn btn-success">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- 
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Quiz App</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-success">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Messaging Service</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-success">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Twitter Clone</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-success">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Blog App</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-success">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+        </section>
+        <hr class="dashed-hr">
+    </div> 
 </body>
 </html>
 
 
 <!-- change scroll bar to dots and let it snap like apple -->
 <!-- porfolio, see source code with html symbol -->
+
+<!-- load javascript after loading all html content -->
+<script src="script/script.js"></script>
